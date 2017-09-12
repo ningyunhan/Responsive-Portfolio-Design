@@ -1,0 +1,108 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/*
+* {
+	border: 1px solid red !important;
+}
+
+*/
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  margin: 2em;
+  font-family: 'Just Another Hand', cursive;
+  font-weight: normal;
+  background-color: #d3eadc;
+}
+
+article {
+  margin: 0;
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+a {
+	text-decoration: none;
+	color: #2d3c49;
+}
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+#social a {
+  margin: 0 5em 0 0;
+}
+
+#social a:last-of-type {
+  margin: 0;
+}
+
+#social {
+  line-height: 2em;
+  font-size: 1em;
+}
+
+#background-image {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.col-md-4 img {
+	width: 100%;
+	/*border: 1px solid blue !important;*/
+}
+
+.text-muted1 {
+	color: #2d3c49;
+	letter-spacing: 3px;
+}
+
+.text-muted2 {
+	color: #2d3c49;
+	letter-spacing: 3px;
+}
+
+.text-muted3 {
+	color: #2d3c49;
+	letter-spacing: 2px;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.text-light {
+	font-weight: 100;
+}
+
+.text-bold {
+	font-weight: 900;
+}
+
+.title-logo {
+	width: 150px;
+	height: 150px;
+}
+
+hr {
+	border-top: 1px solid #7d97ad;
+	border-bottom: 1px solid #7d97ad;
+}
+
+a {
+	font-size: 23px;
+}
+
+h2, h3 {
+	font-size: 36px;
+}
